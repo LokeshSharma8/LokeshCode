@@ -31,7 +31,9 @@ public class SingleListDemo {
 				break;
 			case 2:
 				System.out.println(" Enter element you want to add ... ");
-				item=Integer.parseInt(inputFromKeyboard.next());
+			
+
+	item=Integer.parseInt(inputFromKeyboard.next());
 				 
 				list.addItemAtEnd(item);
 				break;
